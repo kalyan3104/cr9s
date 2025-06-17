@@ -25,4 +25,12 @@ fn main() {
     my_fruit_backpack.push("Grape");
 
     println!("After getting more fruit: {:?}", my_fruit_backpack); // Your backpack got bigger again!
-}
+} 
+
+
+//                                                              ARRAY                                 VEC
+// Size	                                           Fixed (known at compile time)	   Dynamic (can grow/shrink at runtime)
+// Memory                                                         	Usually Stack	       Heap for data, Stack for Vec handle
+// Flexibility	                                    Rigid, cannot add/remove elements 	   Flexible, can push, pop, insert, remove
+// Syntax	                                        [value1, value2, ...] or [T; size]	   Vec::new(), vec![] macro
+// Best Use Case	                            Fixed collections, performance-critical	   Collections whose size changes, general-purpose lists
