@@ -52,7 +52,7 @@ fn main() {
     let mut s = String::from("hello");
     change(&mut s); // Mutable reference
 
-    println!("{}", s); // ✅ Output: hello world
+    println!("{}", s); // hello world
 }
 ////////////////////////////////////////////////
 fn main() {
